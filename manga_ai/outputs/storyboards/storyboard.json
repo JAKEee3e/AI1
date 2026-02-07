@@ -1,0 +1,120 @@
+{
+  "version": "manga_ai.storyboard.v1",
+  "title": "Morning Chaos",
+  "logline": "Evan's chaotic morning starts with a mysterious text and an alarm clock.",
+  "style_notes": "Cinematic lighting, high detail, anime shading, sharp manga lineart.",
+  "global_negative_prompt": "include text, watermark, logo, signature, lowres, blurry, bad anatomy, extra limbs.",
+  "pages": [
+    {
+      "page_index": 0,
+      "page_width": 1024,
+      "page_height": 1536,
+      "gutter_px": 24,
+      "border_px": 6,
+      "panels": [
+        {
+          "panel_id": "top_left",
+          "bbox_norm": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ],
+          "camera_angle": "top_down",
+          "shot": "establishing",
+          "scene": "bedroom",
+          "visual_focus": "main_character",
+          "characters": [
+            "Evan"
+          ],
+          "dialogue": [],
+          "sdxl_prompt": "messy bedroom, Evan sleeping, sunlight through blinds, morning chaos",
+          "sdxl_negative_prompt": "text, watermark, logo, signature, lowres, blurry, bad anatomy, extra limbs",
+          "seed": null,
+          "steps": 30,
+          "cfg_scale": 6.0
+        },
+        {
+          "panel_id": "bottom_left",
+          "bbox_norm": [
+            0.0,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "camera_angle": "top_down",
+          "shot": "establishing",
+          "scene": "bedroom",
+          "visual_focus": "main_character",
+          "characters": [
+            "Evan"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Evan",
+              "text": "Why does morning exist?",
+              "tone": null,
+              "bubble_style": "thought"
+            }
+          ],
+          "sdxl_prompt": "messy bedroom, Evan sitting up, phone alarm blaring, unknown text",
+          "sdxl_negative_prompt": "text, watermark, logo, signature, lowres, blurry, bad anatomy, extra limbs",
+          "seed": null,
+          "steps": 30,
+          "cfg_scale": 6.0
+        },
+        {
+          "panel_id": "right_top",
+          "bbox_norm": [
+            0.5,
+            0.0,
+            0.5,
+            0.5
+          ],
+          "camera_angle": "top_down",
+          "shot": "establishing",
+          "scene": "bedroom",
+          "visual_focus": "main_character",
+          "characters": [
+            "Evan"
+          ],
+          "dialogue": [],
+          "sdxl_prompt": "messy bedroom, Evan sitting up, shocked, chair empty",
+          "sdxl_negative_prompt": "text, watermark, logo, signature, lowres, blurry, bad anatomy, extra limbs",
+          "seed": null,
+          "steps": 30,
+          "cfg_scale": 6.0
+        },
+        {
+          "panel_id": "bottom_right",
+          "bbox_norm": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "camera_angle": "top_down",
+          "shot": "establishing",
+          "scene": "bedroom",
+          "visual_focus": "main_character",
+          "characters": [
+            "Evan"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Evan",
+              "text": "Survive first period without losing my mind.",
+              "tone": null,
+              "bubble_style": "thought"
+            }
+          ],
+          "sdxl_prompt": "messy bedroom, Evan rushing to get dressed, backpack half-zipped, hair messy",
+          "sdxl_negative_prompt": "text, watermark, logo, signature, lowres, blurry, bad anatomy, extra limbs",
+          "seed": null,
+          "steps": 30,
+          "cfg_scale": 6.0
+        }
+      ]
+    }
+  ]
+}
