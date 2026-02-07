@@ -82,7 +82,7 @@ def ensure_models_downloaded(
 ) -> None:
     hf_token = hf_token if hf_token is not None else os.environ.get("MANGA_AI_HF_TOKEN")
 
-    qwen_repo = _env("MANGA_AI_QWEN_REPO", "Qwen/Qwen2.5-14B-Instruct")
+    qwen_repo = _env("MANGA_AI_QWEN_REPO", "Qwen/Qwen2.5-7B-Instruct")
     sdxl_repo = _env("MANGA_AI_SDXL_REPO", "cagliostrolab/animagine-xl-4.0")
 
     if not _dir_looks_like_hf_transformers_model(qwen_dir):
